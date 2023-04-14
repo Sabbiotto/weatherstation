@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+}
+
+.child {
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.child2 {
+    margin-top: 5px;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.parent .child {
+    margin: auto;
+}
+
+.text{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 2%;
+}
+
+.button{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.table{
+    color: #fff; 
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 1.5%;
+}
+
+#dataTable{
+    width: 100%;
+    border-radius: 10px;
+    table-layout: fixed;
+    padding: 0 1.5% 1.5% 1.5%;
+    border: 1px solid #fff;
+    overflow-y: scroll;
+}
+
+input{
+    font-size: 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .table{
+        width: 100%;
+    }
+}
+
+.temp{
+    color: #fff;
+}
+
+.avgs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0.5%;
+}
+
+.chartContainer{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+
+      
+
+    
+    

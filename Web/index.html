@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Station Hub</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <h1 class="text">Weather Station Hub</h1>
+        <div class="text">
+          <p>Here you can see the data from the weatherstation<br>
+          Click on the button to see the data</p>
+        </div>
+        <div class="button">
+          <form action="data.php" method="get">
+            <input class="input" type="submit" value="See data">
+          </form>
+        </div>
+        <h3 class="text">Description of the project</h3>
+        <div class="text">
+          <p>This project is a weather station that measures the temperature, humidity.<br>
+          The data is sent by a Raspberry Pi 4 and is stored in a<br>
+          database. The data can be seen on this website.</p>
+      </div>
+    </div>
+  </body>
+</html>
